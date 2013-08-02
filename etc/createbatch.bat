@@ -1,0 +1,1 @@
+python splitetiles.py createbatch > tiles.bat

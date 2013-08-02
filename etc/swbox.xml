@@ -1,0 +1,18 @@
+
+<swbox>
+	<!--<geocenter>121.383 31.1262</geocenter>-->
+	<geocenter>121.367 31.1197</geocenter>
+	<!--<scales>1000 2000 3500 5000 7500 10000 15000 20000 35000 50000 75000 100000 150000 200000 300000 400000 600000 800000</scales>-->
+	<scales>2000 3500 5000 7500 10000  20000  50000  100000  200000  400000  700000 1000000 2000000 5000000 10000000 20000000 40000000</scales>
+	
+	<scalelevel>5</scalelevel>
+	<cachethreads>3</cachethreads> <!--异步请求时工作线程数-->
+	<asyncRender>true</asyncRender> <!--阻塞还是异步请求-->
+	<debugGridShow>false</debugGridShow>
+	<tileservers><!--填充server列表视为启用rpc -->
+		<server>TileServer:tcp -h localhost -p 5000</server>
+		
+	</tileservers>
+	<EnableTileCache>false</EnableTileCache><!--是否启用TileServer-->
+	<Background>#99B3CC</Background><!-- 背景颜色 -->
+</swbox>

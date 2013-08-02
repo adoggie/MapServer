@@ -1,0 +1,91 @@
+
+
+<!--
+ 0.000005(2000), 0.000008(3500), 0.000012(5000), 0.000018(7500), 0.000024(10000)
+, 0.000047(20000), 0.000119(50000), 0.000237(100000), 0.000474(200000), 0.000948
+(400000), 0.001660(700000), 0.002371(1000000), 0.004742(2000000), 0.011854(50000
+00), 0.023708(10000000), 0.047416(20000000), 0.094833(40000000),
+-->
+<MapLayerStyle resourcepath="./resource">
+	<include>/srv/etc/sld2/road_0.xml</include>
+	<include>/srv/etc/sld2/road_1.xml</include>
+	<include>/srv/etc/sld2/road_2.xml</include>
+	<include>/srv/etc/sld2/road_3.xml</include>
+	<include>/srv/etc/sld2/road_4.xml</include>
+	<include>/srv/etc/sld2/road_6.xml</include>
+	<include>/srv/etc/sld2/road_8.xml</include>
+	<include>/srv/etc/sld2/road_a.xml</include>
+	
+	<include>/srv/etc/sld2/city_polygon.xml</include>	
+	<include>/srv/etc/sld2/city_point1.xml</include>
+	<include>/srv/etc/sld2/city_point2.xml</include>
+	<include>/srv/etc/sld2/china_polygon.xml</include>
+	<include>/srv/etc/sld2/china_point.xml</include>
+	<Sld>
+ 
+	</Sld>  
+	<Layers>
+		
+		 
+		<Layer id="12" name="admin" geomtype="POLYGON">back_admin</Layer>
+		<Layer id="100" name="china20_river" geomtype="POLYGON">china_river</Layer>
+		<Layer id="101" name="china20_lake" geomtype="POLYGON">china_river</Layer>
+		<Layer id="102" name="china20_sea" geomtype="POLYGON">china_sea</Layer>
+		
+		
+		<Layer id="8" name="back_river" geomtype="POLYGON">back_river</Layer>
+		<Layer id="9" name="back_lake" geomtype="POLYGON">back_river</Layer>
+		<Layer id="10" name="back_greenland" geomtype="POLYGON">back_greenland</Layer>
+		<Layer id="11" name="back_sea" geomtype="POLYGON"></Layer>
+		
+		
+		
+		<Layer id="7" name="roada" geomtype="LINE">road_8</Layer>
+		<Layer id="6" name="road8" geomtype="LINE">road_8</Layer>
+		<Layer id="5" name="road6" geomtype="LINE">road_6</Layer>
+		<Layer id="4" name="road4" geomtype="LINE">road_4</Layer>
+		<Layer id="3" name="road3" geomtype="LINE">road_3</Layer>
+		<Layer id="2" name="road2" geomtype="LINE">road_2</Layer>
+		<Layer id="1" name="road1" geomtype="LINE">road_0</Layer>
+		<Layer id="0" name="road0" geomtype="LINE">road_0</Layer>
+		
+		
+		
+		
+		<Layer id="13" name="catering" geomtype="POINT">city_point</Layer>
+		<Layer id="14" name="retial" geomtype="POINT">city_point</Layer>
+		<Layer id="15" name="moto" geomtype="POINT">city_point</Layer>
+		<Layer id="16" name="hotel" geomtype="POINT">city_point</Layer>
+		<Layer id="17" name="leisure" geomtype="POINT">city_point</Layer>
+		<Layer id="18" name="public" geomtype="POINT">city_point</Layer>
+		<Layer id="19" name="traffic" geomtype="POINT">city_point</Layer>
+		<Layer id="20" name="culture" geomtype="POINT">city_point</Layer>
+		<Layer id="21" name="bank" geomtype="POINT">city_point</Layer>
+		<Layer id="22" name="other" geomtype="POINT">city_point</Layer>
+		<Layer id="23" name="river" geomtype="POINT">city_point</Layer>
+		<Layer id="24" name="vilage" geomtype="POINT">city_point</Layer>
+		<Layer id="25" name="town" geomtype="POINT">city_point_town</Layer>
+		<Layer id="26" name="misc" geomtype="POINT">city_point</Layer>
+	
+		 
+		<!-- 层定义 -->
+		<!--中文测试 -->
+		
+		<Layer id="103" name="china20_poi" geomtype="POINT">china_point2</Layer>
+		
+		<!--
+		<Layer id="104" name="china100_river" geomtype="POLYGON"></Layer>
+		<Layer id="105" name="china100_lake" geomtype="POLYGON"></Layer>
+		<Layer id="106" name="china100_sea" geomtype="POLYGON"></Layer>
+		<Layer id="107" name="china100_poi" geomtype="POINT"></Layer>
+		<Layer id="108" name="china100_backline" geomtype="LINE"></Layer>
+		-->
+		
+
+	</Layers>
+	<MapOptions>
+		<Background>#99B3CC</Background>
+		<!--<Background>#F2EFE9</Background>-->
+		
+	</MapOptions>
+</MapLayerStyle>

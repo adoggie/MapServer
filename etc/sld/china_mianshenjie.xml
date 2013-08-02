@@ -1,0 +1,187 @@
+﻿
+<Sld>
+<!-- china map sld start -->
+		<FeatureType id="mianshenjie">
+		 
+			<Rule>
+				<MinDenominator>400000</MinDenominator>
+				<MaxDenominator>2000000</MaxDenominator>
+				
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#F2EFE9</fill>
+					</Fill>
+					<Stroke>
+						<fill>#F2EFE9</fill>
+					</Stroke>
+					
+				</PolygonSymbolizer>
+			</Rule>	
+			 
+			<Rule>
+				<MinDenominator>2000000</MinDenominator>				
+				<Filter>
+					<ogc:fieldname>name</ogc:fieldname>
+					<ogc:fieldtype>string</ogc:fieldtype>
+					<ogc:or>
+						<ogc:eq>安徽省</ogc:eq>
+						<ogc:eq>北京市</ogc:eq>
+						<ogc:eq>福建省</ogc:eq>
+						<ogc:eq>甘肃省</ogc:eq>
+						<ogc:eq>广东省</ogc:eq>
+						
+						 
+					</ogc:or>
+				</Filter>
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#D17A3C</fill>
+					</Fill>
+					<Stroke>
+						<fill>#D17A3C</fill>
+					</Stroke>
+				</PolygonSymbolizer>
+			</Rule>	 		
+
+			<Rule>
+				<MinDenominator>2000000</MinDenominator>				
+				<Filter>
+					<ogc:fieldname>name</ogc:fieldname>
+					<ogc:fieldtype>string</ogc:fieldtype>
+					<ogc:or>
+						<ogc:eq>广西壮族自治区</ogc:eq>
+						
+						<ogc:eq>海南省</ogc:eq>
+						<ogc:eq>河北省</ogc:eq>
+						
+						<ogc:eq>黑龙江</ogc:eq>
+						<ogc:eq>西藏自治区</ogc:eq>
+						<ogc:eq>重庆市</ogc:eq>
+						
+						
+					</ogc:or>
+				</Filter>
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#FF51AB</fill>
+					</Fill>
+					<Stroke>
+						<fill>#FF51AB</fill>
+					</Stroke>
+				</PolygonSymbolizer>
+			</Rule>	 		
+
+			<Rule>
+				<MinDenominator>2000000</MinDenominator>				
+				<Filter>
+					<ogc:fieldname>name</ogc:fieldname>
+					<ogc:fieldtype>string</ogc:fieldtype>
+					<ogc:or>
+						
+						<ogc:eq>湖南省</ogc:eq>
+						<ogc:eq>吉林省</ogc:eq>
+						<ogc:eq>江苏省</ogc:eq>
+						<ogc:eq>山西省</ogc:eq>
+						<ogc:eq>辽宁省</ogc:eq>
+						<ogc:eq>台湾省</ogc:eq>
+						<ogc:eq>天津市</ogc:eq>
+						<ogc:eq>新疆维吾尔自治区</ogc:eq>
+						<ogc:eq>陕西省</ogc:eq>
+					</ogc:or>
+				</Filter>
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#E29EC6</fill>
+					</Fill>
+					<Stroke>
+						<fill>#E29EC6</fill>
+					</Stroke>
+				</PolygonSymbolizer>
+			</Rule>	 		
+
+			<Rule>
+				<MinDenominator>2000000</MinDenominator>				
+				<Filter>
+					<ogc:fieldname>name</ogc:fieldname>
+					<ogc:fieldtype>string</ogc:fieldtype>
+					<ogc:or>
+						<ogc:eq>内蒙古自治区</ogc:eq>
+						<ogc:eq>青海省</ogc:eq>
+						<ogc:eq>山东省</ogc:eq>
+						
+						<ogc:eq>上海市</ogc:eq>
+						<ogc:eq>江西省</ogc:eq>
+						<ogc:eq>云南省</ogc:eq>	
+					</ogc:or>
+				</Filter>
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#5FE244</fill>
+					</Fill>
+					<Stroke>
+						<fill>#5FE244</fill>
+					</Stroke>
+				</PolygonSymbolizer>
+			</Rule>	 		
+
+			<Rule>
+				<MinDenominator>2000000</MinDenominator>				
+				<Filter>
+					<ogc:fieldname>name</ogc:fieldname>
+					<ogc:fieldtype>string</ogc:fieldtype>
+					<ogc:or>
+					
+						<ogc:eq>宁夏回族自治区</ogc:eq>
+						<ogc:eq>河南省</ogc:eq>
+						<ogc:eq>四川省</ogc:eq>
+						<ogc:eq>湖北省</ogc:eq>
+					</ogc:or>
+				</Filter>
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#FFAA92</fill>
+					</Fill>
+					<Stroke>
+						<fill>#FFAA92</fill>
+					</Stroke>
+				</PolygonSymbolizer>
+			</Rule>	 		
+			<Rule>
+				<MinDenominator>2000000</MinDenominator>				
+				<Filter>
+					<ogc:fieldname>name</ogc:fieldname>
+					<ogc:fieldtype>string</ogc:fieldtype>
+					<ogc:or>
+					
+						 <ogc:eq>贵州省</ogc:eq>
+						<ogc:eq>陕西省</ogc:eq>
+						<ogc:eq>浙江省</ogc:eq>
+						
+					</ogc:or>
+				</Filter>
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#FFC53D</fill>
+					</Fill>
+					<Stroke>
+						<fill>#FFC53D</fill>
+					</Stroke>
+				</PolygonSymbolizer>
+			</Rule>	 		
+
+			</FeatureType>
+</Sld>

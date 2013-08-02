@@ -1,0 +1,28 @@
+<!--地图缓冲服务器资源 -->
+<tileserver>
+	<map>
+		<id>0</id>
+		<path>D:\d-share\mapdata</path>
+		<!--<scales>1000 2000 3500 5000 7500 10000 15000 20000 35000 50000 75000 100000 150000 200000 300000 400000 600000 800000</scales> -->
+		<scales>2000 3500 5000 7500 10000  20000  50000  100000  200000  400000  700000 1000000 2000000 5000000 10000000 20000000 40000000</scales>
+		
+		<!-- <origin>70.0 10.0</origin> -->
+		<origin>70 10</origin>
+	</map>
+	<options>
+		<EmptyTile>./empty.png</EmptyTile>
+		<TileSize>256 256</TileSize>
+		<realRender>true</realRender> 
+		<!--true时将加载mapserver引擎,当请求cache tile时请关闭.
+			false - 
+				1. swbox通过rpc请求预处理网格块
+				2. swbox进程内请求预处理网格块
+			true -
+				1. tileserver -create 创建缓冲网格块时
+				2. swbox通过rpc请求tileserver实时绘制网格时
+		-->
+	</options>
+	<RpcServer> <!-- rpc服务器配置参数-->
+		<config>tileserver.rpc.conf</config>
+	</RpcServer>
+</tileserver>

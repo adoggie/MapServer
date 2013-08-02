@@ -1,0 +1,124 @@
+﻿
+<Sld>
+		<FeatureType id="china_point_normal">		
+			<Rule>			
+				<MinDenominator>400000</MinDenominator>
+				<MaxDenominator>800000</MaxDenominator>				 
+				<PointSymbolizer>
+					<Marker>
+						<wellknown>cirle</wellknown>						
+						<fill>
+							<opacity>1</opacity>
+							<width>1</width>
+							<fill>#ff0000</fill>
+						</fill>
+					</Marker>
+					
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>				
+					<size>6</size>
+				</PointSymbolizer>
+			</Rule>					
+		</FeatureType>
+		<FeatureType id="china_point_hill">		
+			<Rule>			
+				<MinDenominator>0</MinDenominator>
+				<MaxDenominator>2000000</MaxDenominator>				 
+				<PointSymbolizer>
+					<Marker>
+						<wellknown>square</wellknown>						
+						<fill>
+							<opacity>1</opacity>
+							<width>1</width>
+							<fill>#00ff00</fill>
+						</fill>
+					</Marker>
+					
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>				
+					<size>6</size>
+				</PointSymbolizer>
+			</Rule>					
+		</FeatureType>
+		<FeatureType id="china_point_shenhuichengshi">		
+			<Rule>			
+				<MinDenominator>800000</MinDenominator>
+				<MaxDenominator>5000000</MaxDenominator>				 
+				<PointSymbolizer>
+					<Marker>
+						<wellknown>cirle</wellknown>						
+						<fill>
+							<opacity>1</opacity>
+							<width>1</width>
+							<fill>#ff0000</fill>
+						</fill>
+					</Marker>
+					
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>				
+					<size>6</size>
+				</PointSymbolizer>
+			</Rule>					
+		</FeatureType>
+		<FeatureType id="china_point_xianming">		
+			<Rule>			
+				<MinDenominator>400000</MinDenominator>
+				<MaxDenominator>1000000</MaxDenominator>				 
+				<PointSymbolizer>
+					<Marker>
+						<wellknown>cirle</wellknown>						
+						<fill>
+							<opacity>1</opacity>
+							<width>1</width>
+							<fill>#ff0000</fill>
+						</fill>
+					</Marker>
+					
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>				
+					<size>6</size>
+				</PointSymbolizer>
+			</Rule>					
+		</FeatureType>
+		<FeatureType id="china_point_xiangzhen">		
+			<Rule>			
+				<MinDenominator>50000</MinDenominator>
+				<MaxDenominator>300000</MaxDenominator>				 
+				<PointSymbolizer>
+					<Marker>
+						<wellknown>cirle</wellknown>						
+						<fill>
+							<opacity>1</opacity>
+							<width>1</width>
+							<fill>#ff0000</fill>
+						</fill>
+					</Marker>
+					
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>				
+					<size>6</size>
+				</PointSymbolizer>
+			</Rule>					
+		</FeatureType>
+
+</Sld>

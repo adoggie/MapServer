@@ -1,0 +1,35 @@
+<SNS>
+	<InterfaceDef >
+		<if id="0" name="IMapServer"/>
+	</InterfaceDef>
+
+	<ServiceDef>
+		<service name="MAPSVR" id="1"  mq_pattern="mq_map_%d">
+			<interfaces>
+			</interfaces>
+		</service>
+	</ServiceDef>
+
+	<EndPoints>
+		<ep name="socket1" 	address="" type="socket" host="localhost" port="14001"/>
+		<ep name="socket2" 	address="" type="socket" host="localhost" port="14001"/>		
+	</EndPoints>
+
+	<servers>
+		<server name="tileserver_1" type="MAPSVR" id="1" >
+			<extra_mqs ins="socket1" outs=""/>
+			<properties>
+				<property name="userid_check" value="false"/>
+			</properties>
+		</server>
+
+		<server name="tileserver_2" type="MAPSVR" id="2" >
+			<extra_mqs ins="socket2" outs=""/>
+			<properties>
+				<property name="userid_check" value="false"/>
+			</properties>
+		</server>
+	</servers>
+
+
+</SNS>

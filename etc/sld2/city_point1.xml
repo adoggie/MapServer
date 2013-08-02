@@ -1,0 +1,84 @@
+﻿
+<Sld>
+		<!--        -->
+		
+		<FeatureType id="city_point_town">		
+			<Rule>			
+				<MinDenominator>1</MinDenominator>
+				<MaxDenominator>12000</MaxDenominator>				 						
+				<PointSymbolizer>
+					<Marker>
+						<wellknown>cirle</wellknown>						
+						<fill>
+							<opacity>1</opacity>
+							<width>1</width>
+							<fill>#ffff00</fill>
+						</fill>
+					</Marker>
+					
+					<Text>
+						<label-placement>
+							<displacement>0 5</displacement>						
+						</label-placement>
+						<fill>#ff00ff</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>14</font-size>
+						<label-placement></label-placement>
+					</Text>	 			
+					<size>4</size>
+				</PointSymbolizer>
+			</Rule>		
+		</FeatureType>
+		
+		
+		<FeatureType id="city_point">		
+			<Rule>			
+				<MinDenominator>1</MinDenominator>
+				<MaxDenominator>5000</MaxDenominator>				 
+				<PointSymbolizer>
+					<Marker>
+						<wellknown>cirle</wellknown>						
+						<fill>
+							<opacity>1</opacity>
+							<width>1</width>
+							<fill>#ff0000</fill>
+						</fill>
+					</Marker>
+					
+					<Text>
+						<fill>#0000ff</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>14</font-size>
+						<label-placement></label-placement>
+					</Text>				
+					<size>4</size>
+				</PointSymbolizer>
+			</Rule>		
+			<Rule>			
+				<MinDenominator>5000</MinDenominator>
+				<MaxDenominator>10000</MaxDenominator>				 
+				<PointSymbolizer>
+					<Marker>
+						<wellknown>cirle</wellknown>						
+						<fill>
+							<opacity>1</opacity>
+							<width>1</width>
+							<fill>#ff0000</fill>
+						</fill>
+					</Marker>
+					
+					<Text>
+						<label-placement>
+							<displacement>0 5</displacement>						
+						</label-placement>
+						<fill>#0000ff</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>14</font-size>
+						
+					</Text>	 			
+					<size>4</size>
+				</PointSymbolizer>
+			</Rule>		
+		</FeatureType>
+		
+</Sld>

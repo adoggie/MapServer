@@ -1,0 +1,8 @@
+﻿<MapRender ConfigFile="E:\Projects\swMap\MapEngine\etc\mapserv.xml">
+	<Exec>
+		<CenterPoint>121.383 31.1262</CenterPoint>
+		<ViewSize>800 800</ViewSize><!--按256 x 256　网格规则最终绘制大小是 1000 x 10000 -->
+		<Scale>5000</Scale>
+		<OutputImage>r:\out2.jpg</OutputImage>	
+	</Exec>
+</MapRender>

@@ -1,0 +1,100 @@
+﻿
+<Sld>
+		<FeatureType id="landuse_region_8"> <!--江河湖海-->
+			<Rule>
+				<MinDenominator>0</MinDenominator>
+				<MaxDenominator>100000</MaxDenominator>
+				 
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#99B3CC</fill>
+					</Fill>
+					<Stroke>					
+						<fill>#99B3CC</fill>
+					</Stroke>
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>	
+				</PolygonSymbolizer>
+			</Rule>
+		</FeatureType>
+		
+		<FeatureType id="landuse_region_7"> <!-- 绿化-->
+			<Rule>
+				<MinDenominator>0</MinDenominator>
+				<MaxDenominator>400000</MaxDenominator>
+				 
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#B5D29C</fill>
+					</Fill>
+					<Stroke>					
+						<fill>#B5D29C</fill>
+					</Stroke>
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>	
+				</PolygonSymbolizer>
+			</Rule>
+		</FeatureType>
+	
+	<FeatureType id="jianzhuwu"> <!-- 绿化-->
+			<Rule>
+				<MinDenominator>0</MinDenominator>
+				<MaxDenominator>40000</MaxDenominator>
+				 
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#b0b0b0</fill>
+					</Fill>
+					<Stroke>					
+						<fill>#b0b0b0</fill>
+					</Stroke>
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>	
+				</PolygonSymbolizer>
+			</Rule>
+		</FeatureType>
+		
+	<FeatureType id="city_river"> <!--江河湖海-->
+			<Rule>
+				
+				<MaxDenominator>60000.0</MaxDenominator>
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#99B3CC</fill>
+					</Fill>
+					<Stroke>					
+						<fill>#99B3CC</fill>
+					</Stroke>
+					<!--  双线河的文本标注显示为乱码，故取消显示文本 
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>	
+					-->
+				</PolygonSymbolizer>
+			</Rule>
+		</FeatureType>
+
+</Sld>

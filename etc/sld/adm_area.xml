@@ -1,0 +1,50 @@
+
+<Sld>
+		<FeatureType id="adm_area">
+			<Rule>
+				<MinDenominator>0</MinDenominator>
+				<MaxDenominator>300000.0</MaxDenominator>
+				
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#F2EFE9</fill>
+					</Fill>
+					<Stroke>
+						<fill>#F2EFE9</fill>
+					</Stroke>
+					<!--
+					<Text>
+						<fill>#000000</fill>
+						<font-size>12</font-size>					
+						<group>true</group>
+					</Text>-->
+				</PolygonSymbolizer>
+			</Rule>
+			<Rule>
+				<MinDenominator>300001.0</MinDenominator>
+				<MaxDenominator>600000.0</MaxDenominator>
+				
+				<PolygonSymbolizer>					
+					<Fill>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#F2EFE9</fill>
+					</Fill>
+					<Stroke>
+						<fill>#F2EFE9</fill>
+					</Stroke>
+					<!--
+					<Text>
+						<fill>#000000</fill>
+						<font-size>12</font-size>	
+						<font-name>Microsoft YaHei</font-name>
+										
+						<group>true</group>
+					</Text>
+					-->
+				</PolygonSymbolizer>
+			</Rule>
+		</FeatureType>
+</Sld>

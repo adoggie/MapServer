@@ -1,0 +1,32 @@
+<mapserver id="1" ice="" logfile="server.log" jpeg_quality="80" anti-aliasing="true" >		
+	<memheap>
+		<bucketset blocksize="4" bucketnum="10" bucketsize="1"/> <!--blocksize 4 equal 1<<4 ;bucketsize 1 equal 1MB,2 equal 2MB,as so on -->
+		<bucketset blocksize="6" bucketnum="10" bucketsize="1"/>
+		<bucketset blocksize="7" bucketnum="10" bucketsize="1"/>
+		<bucketset blocksize="8" bucketnum="10" bucketsize="1"/>
+		<bucketset blocksize="12" bucketnum="3" bucketsize="2"/>
+		<bucketset blocksize="14" bucketnum="3" bucketsize="2"/>
+		<bucketset blocksize="18" bucketnum="3" bucketsize="2"/>		
+	</memheap>	
+	<sld>/srv/etc/mapsld.xml</sld>		
+	<maps path="/home/projects/mapdata/final">
+		<map name="china" id="1" file="china.gis"/>
+	</maps>
+	
+	<scales>80000000,60000000,40000000,20000000,
+				10000000,6000000,3000000,1500000,
+				700000,400000,200000,100000
+	</scales>
+	<!-- 绘制限制，满足一下条件则绘制 -->
+	<VisibleMinPolygon>0 0</VisibleMinPolygon>
+	<VisibleMinLine></VisibleMinLine>
+	<options>
+		
+		<renderType>opengl_</renderType>
+        <!--		<rendeType>native_</rendeType> -->
+
+	</options>
+	<assets>
+		<images path="assets/poi"/>
+	</assets>
+</mapserver>

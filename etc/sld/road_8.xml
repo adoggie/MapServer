@@ -1,0 +1,105 @@
+﻿
+<Sld>
+		<FeatureType id="road_8">
+			<Rule>
+				<MinDenominator>0</MinDenominator>
+				<MaxDenominator>3500</MaxDenominator>	
+				<LineSymbolizer>
+					<Stroke>
+						<opacity>1</opacity>
+						<width>11</width>
+						<fill>#E5DECF</fill>
+						<line-join>round</line-join>
+						<line-cap>round</line-cap>						
+					</Stroke>															
+				</LineSymbolizer>
+				<LineSymbolizer>
+					<Stroke>
+						<opacity>1</opacity>
+						<width>10</width>
+						<fill>#FFFFFF</fill>
+						<line-join>round</line-join>
+						<line-cap>round</line-cap>	
+						
+					</Stroke>	
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>						
+				</LineSymbolizer>
+			</Rule>
+			<Rule>
+				<MinDenominator>3501</MinDenominator>
+				<MaxDenominator>7500</MaxDenominator>	
+				<LineSymbolizer>
+					<Stroke>
+						<opacity>1</opacity>
+						<width>9</width>
+						<fill>#E5DECF</fill>
+						<line-join>round</line-join>
+						<line-cap>round</line-cap>						
+					</Stroke>															
+				</LineSymbolizer>
+				<LineSymbolizer>
+					<Stroke>
+						<opacity>1</opacity>
+						<width>7</width>
+						<fill>#FFFFFF</fill>
+						<line-join>round</line-join>
+						<line-cap>round</line-cap>						
+					</Stroke>
+					<Text>						
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>	
+				</LineSymbolizer>
+			</Rule>
+			<Rule>
+				<MinDenominator>7501</MinDenominator>
+				<MaxDenominator>15000</MaxDenominator>
+				 			
+				<LineSymbolizer>
+					<Stroke>
+						<opacity>1</opacity>
+						<width>5</width>
+						<fill>#E5DECF</fill>
+						<line-join>round</line-join>
+						<line-cap>round</line-cap>						
+					</Stroke>															
+				</LineSymbolizer>
+				<LineSymbolizer>
+					<Stroke>
+						<opacity>1</opacity>
+						<width>3</width>
+						<fill>#FFFFFF</fill>
+						<line-join>round</line-join>
+						<line-cap>round</line-cap>						
+					</Stroke>		
+					<Text>
+						<fill>#000000</fill>
+						<font-name>Microsoft YaHei</font-name>
+						<font-size>8</font-size>
+						<label-placement></label-placement>
+					</Text>						
+				</LineSymbolizer>
+			</Rule>
+			<Rule>
+				<MinDenominator>15001</MinDenominator>
+				<MaxDenominator>100000</MaxDenominator>				 			
+				<LineSymbolizer>
+					<Stroke>
+						<opacity>1</opacity>
+						<width>1</width>
+						<fill>#E5DECF</fill>
+						<line-join>round</line-join>
+						<line-cap>round</line-cap>						
+					</Stroke>															
+				</LineSymbolizer>				
+			</Rule>
+		</FeatureType>
+
+</Sld>

@@ -1,0 +1,32 @@
+﻿
+<Sld>
+
+		<FeatureType id="china_outline"> <!-- outline -->
+			<Rule>
+				<MinDenominator>400000</MinDenominator>
+				<MaxDenominator>1500000000</MaxDenominator>	
+				<LineSymbolizer>
+					<Stroke>
+						<opacity>1</opacity>
+						<width>5</width>
+						<fill>#ffffff</fill>
+						<line-join>round</line-join>
+						<line-cap>round</line-cap>						
+					</Stroke>															
+				</LineSymbolizer>
+				<!--
+				<LineSymbolizer>
+					<Stroke>
+						<opacity>1</opacity>
+						<width>13</width>
+						<fill>#FFDF46</fill>
+						<line-join>round</line-join>
+						<line-cap>round</line-cap>						
+					</Stroke>															
+				</LineSymbolizer>
+				-->
+			</Rule>
+		</FeatureType>
+
+
+</Sld>
