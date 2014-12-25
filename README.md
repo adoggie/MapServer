@@ -3,7 +3,7 @@ mapserver
 
 地图绘制服务器
 
-渲染效果可见:  http://sw2us.com/gps
+渲染效果可见:  http://114.215.178.29:8080/wms/
 
 mapserver提供地理网格图形绘制服务(tile renderring),通信部分采用tce的RPC调用(见 wms-server).
 最早采用qt作为图形库，但其在windows平台下多线程(multithread)没问题，到了linux却无法工作，原因
