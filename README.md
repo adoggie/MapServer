@@ -25,21 +25,17 @@ docker
 		docker load -i sw2us_webgis_0.2.1.docker
 		
 	2. 启动docker ： 
-		docker run --name webgis  -it -v /home:/data -p 10092:8080 -p 10093:4004 webgis:0.2.1 /bin/bash
+		docker run --name webgis  -it -v /home:/data -p 10092:8080  webgis:0.2.2 /bin/bash
 		
-	3 .配置: 
+	3 .启动服务: 
 		cd /home/sw2us
-		bash config.sh x.x.x.x:port      - 配置端口
-				xxxx - 暴露给外部的ip，一般是docker宿主机的ip 
-				port  - 访问端口 ， 一般跟 run 命令相同即可， 默认: 10093 
-              （ example:  bash config.sh  192.168.10.22:10093 ) 
-		bash start.sh  -  启动服务
+		bash start.sh    
 
 	4.访问 ：  浏览器打开 http://192.168.10.22:10092  
 	
 
 ###Image Download
-1. 2015.11.27 <a href="/">sw2us_webgis_0.2.1.docker</a>      
+1. 2015.11.27 <a href="http://pan.baidu.com/s/1bn7cXVh">sw2us_webgis_0.2.2.docker.tar.gz</a>      
 
 环境
 ====
