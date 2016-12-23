@@ -3,7 +3,7 @@ mapserver
 
 ###地图绘制服务器
 
-渲染效果可见:  http://114.215.178.29:8080/wms/
+渲染效果可见:  http://www.wallizard.com:10092
 <div>
 <img src="./doc/image01.jpg" width="400px" height="320px"/>
 </div>
