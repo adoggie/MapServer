@@ -1,4 +1,4 @@
-mapserver
+MapServer
 =========
 
 ### 地图绘制服务器
