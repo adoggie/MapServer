@@ -70,16 +70,16 @@ http://smart.yanguish.com:10092/www/static/projects
 
  http://smart.yanguish.com:10092/www/static/projects/dvr/dvr_demo.html
  
- <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-1.png" width="600px" height="480px"/>
- <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-2.png" width="600px" height="480px"/>
+ <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-1.png" width="300px" height="240px"/>
+ <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-2.png" width="300px" height="240px"/>
  
 -文档 
 
  http://smart.yanguish.com:10092/www/static/projects/dvr/doc/
 
-<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-01.png" width="600px" height="480px"/>
-<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-02.png" width="600px" height="480px"/>
-<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-03.png" width="600px" height="480px"/>
-<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-04.png" width="600px" height="480px"/>
-<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-05.png" width="600px" height="480px"/>
-<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-06.png" width="600px" height="480px"/>
+<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-01.png" width="300px" height="240px"/>
+<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-02.png" width="300px" height="240px"/>
+<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-03.png" width="300px" height="240px"/>
+<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-04.png" width="300px" height="240px"/>
+<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-05.png" width="300px" height="240px"/>
+<img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-06.png" width="300px" height="240px"/>
