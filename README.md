@@ -1,7 +1,7 @@
 mapserver
 =========
 
-###地图绘制服务器
+### 地图绘制服务器
 
 渲染效果可见:  http://www.wallizard.com:10092
 <div>
@@ -35,7 +35,7 @@ docker
 	4.访问 ：  浏览器打开 http://192.168.10.22:10092  
 	
 
-###Image Download
+### Image Download
 1. 2015.11.27 <a href="http://pan.baidu.com/s/1bn7cXVh">sw2us_webgis_0.2.2.docker.tar.gz</a>      
 
 环境
