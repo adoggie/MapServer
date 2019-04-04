@@ -70,7 +70,7 @@ http://smart.yanguish.com:10092/www/static/projects
 
  http://smart.yanguish.com:10092/www/static/projects/dvr/dvr_demo.html
  
- <img src="doc/dvr-1.jpg" width="800px" height="640px"/>
+ <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-01.png" width="800px" height="640px"/>
  <img src="./doc/dvr-2.jpg" width="800px" height="640px"/>
  
 -文档 
