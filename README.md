@@ -58,3 +58,17 @@ docker
 * qt4-devel
 * mongoose-httpserver
 * docker-1.7.1
+
+相关工程代码
+======
+http://smart.yanguish.com:10092/www/static/projects
+
+高德影像采集应用地图
+======
+- dvr 采集处理
+
+ http://smart.yanguish.com:10092/www/static/projects/dvr/dvr_demo.html
+ 
+- 文档 
+
+  http://smart.yanguish.com:10092/www/static/projects/dvr/doc/
