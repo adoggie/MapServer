@@ -5,7 +5,7 @@ mapserver
 
 渲染效果可见:  http://smart.yanguish.com:10092/
 <div>
-<img src="./doc/image01.jpg" width="400px" height="320px"/>
+<img src="./doc/image01.jpg" width="800px" height="640px"/>
 </div>
 <p></p>
 
