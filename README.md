@@ -66,10 +66,11 @@ http://smart.yanguish.com:10092/www/static/projects
 影像采集应用
 ======
 -dvr 采集处理
+高德工作是在上海数据部门，负责数据本地客户化和创新项目开发。 
 
  http://smart.yanguish.com:10092/www/static/projects/dvr/dvr_demo.html
  
- <img src="./doc/dvr-1.jpg" width="800px" height="640px"/>
+ <img src="doc/dvr-1.jpg" width="800px" height="640px"/>
  <img src="./doc/dvr-2.jpg" width="800px" height="640px"/>
  
 -文档 
