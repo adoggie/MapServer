@@ -30,15 +30,17 @@ docker
 	http://pan.baidu.com/s/1bn7cXVh
 	
 2. 运行docker并加载 镜像  
+<code>
    gzip -d sw2us_webgis_0.2.2.docker.gz
    docker load -i sw2us_webgis_0.2.2.docker
    docker run --name webgis0.2  -itd -v /home:/data -p 10092:8080 -p 10093:4004 webgis:0.2.2 /bin/bash
-
-3. 运行mapserver  
+</code>
+3. 运行mapserver
+<code>
    docker exec -it webgis0.2 bash 
    cd /home/sw2us
    bash ./start.sh
-	
+</code>	
 
 ### Image Download
 1. 2015.11.27 <a href="http://pan.baidu.com/s/1bn7cXVh">sw2us_webgis_0.2.2.docker.tar.gz</a>      
