@@ -3,7 +3,7 @@ mapserver
 
 ### 地图绘制服务器
 
-渲染效果可见:  http://www.wallizard.com:10092
+渲染效果可见:  http://smart.yanguish.com:10092/
 <div>
 <img src="./doc/image01.jpg" width="400px" height="320px"/>
 </div>
@@ -22,17 +22,22 @@ docker
 
 	地图系统由若干个服务构成，已经打包成 docker 镜像  sw2us_webgis_0.2.1.docker 
 	
-	1. 下载 docker 镜像, 挂载image  
-		docker load -i sw2us_webgis_0.2.1.docker
-		
-	2. 启动docker ： 
-		docker run --name webgis  -it -v /home:/data -p 10092:8080  webgis:0.2.2 /bin/bash
-		
-	3 .启动服务: 
-		cd /home/sw2us
-		bash start.sh    
 
-	4.访问 ：  浏览器打开 http://192.168.10.22:10092  
+部署MapServer
+=============
+
+1. github下载docker镜像
+	http://pan.baidu.com/s/1bn7cXVh
+	
+2. 运行docker并加载 镜像  
+   gzip -d sw2us_webgis_0.2.2.docker.gz
+   docker load -i sw2us_webgis_0.2.2.docker
+   docker run --name webgis0.2  -itd -v /home:/data -p 10092:8080 -p 10093:4004 webgis:0.2.2 /bin/bash
+
+3. 运行mapserver  
+   docker exec -it webgis0.2 bash 
+   cd /home/sw2us
+   bash ./start.sh
 	
 
 ### Image Download
