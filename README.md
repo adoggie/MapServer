@@ -3,7 +3,7 @@ MapServer
 
 ### 地图绘制服务器
 
-渲染效果可见:  http://wallizard.com:10092/
+渲染效果可见:  http://bzz.wallizard.com:10092/
 <div>
 <img src="./doc/image01.jpg" width="800px" height="640px"/>
 </div>
