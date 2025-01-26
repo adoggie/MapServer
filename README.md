@@ -3,7 +3,7 @@ MapServer
 
 ### 地图绘制服务器
 
-渲染效果可见:  http://bzz.wallizard.com:10092/
+渲染效果可见:  http://58.34.214.162:10092/
 <div>
 <img src="./doc/image01.jpg" width="800px" height="640px"/>
 </div>
@@ -61,21 +61,21 @@ docker
 
 相关工程代码
 ======
-http://wallizard.com:10092/www/static/projects
+http://58.34.214.162:10092/www/static/projects
 
 影像采集应用
 ======
 -dvr 采集处理
-高德工作是在上海数据部门，负责数据本地客户化和创新项目开发。 
+数据部门，负责数据本地客户化和创新项目开发。 
 
- http://wallizard.com:10092/www/static/projects/dvr/dvr_demo.html
+ http://58.34.214.162:10092/www/static/projects/dvr/dvr_demo.html
  
  <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-1.png" width="300px" height="200px"/>
  <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-2.png" width="300px" height="200px"/>
  
 -文档 
 
- http://wallizard.com:10092/www/static/projects/dvr/doc/
+ http://58.34.214.162:10092/www/static/projects/dvr/doc/
 
 <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-01.png" width="300px" height="200px"/>
 <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-prj-02.png" width="300px" height="200px"/>
