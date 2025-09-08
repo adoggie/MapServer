@@ -67,8 +67,9 @@ http://58.34.214.162:10092/www/static/projects
 ======
 -dvr 采集处理
 数据部门，负责数据本地客户化和创新项目开发。 
+> ./ffmpeg -i dvr.autonavi.mp4 -ss 240 -t 484 -c:v libx264 -c:a aac dvr-autonavi-2.mp4
 
- http://58.34.214.162:10092/www/static/projects/dvr/dvr_demo.html
+-  http://58.34.214.162:10092/www/static/projects/dvr/dvr_demo.html
  
  <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-1.png" width="300px" height="200px"/>
  <img src="https://github.com/adoggie/MapServer/blob/master/doc/dvr-2.png" width="300px" height="200px"/>
